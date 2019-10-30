@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LoanExpertSys.exe" version="1.0.0.0" publicKeyToken="8a7eda9b96a6a194" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LoanExpertSys" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LoanExpertSys.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LoanExpertSys.exe" size="48664">
+      <assemblyIdentity name="LoanExpertSys" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QEcOFXlKxuz2n45L6HHC33hurnE+V1pSEdfkGo5vjpk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LoanExpertSys.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=SAIMOH-SIMERTEC\Saimoh Saimooh" issuerKeyHash="e019740387fb8340394cb07566f03db64ed82e4d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ob8e/h84toSqYNwJ9/M/4WDmpK6iyA1xojI/R7Rh6ss=</DigestValue></Reference></SignedInfo><SignatureValue>tFpoFQ0CK6BeR75BR7QvGd94iYK2zB6vlxFvuxeVyzUSpmGPLn66GGi47raBSioz7U819temIsij+6erZwQvICzksU6TwQhiMJszLV7ndAbfI0hsoyGazUq9RBCPmPo9X8BPbLrlb1v/PrnlXVAB8s0hgjLu1ZCsi8IpNp1i3Kk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uDU7Nfw1d1zuuJ690rJPFTljpDAilRbrsmo5VKIvqJ8Di4cNqNGsOiSYFV69It/k610tqS0nKI+EihZCg/WwxwK9kV6m3XTyyLCzseh8i0wGlYnaavZXB96NC2gc3O5QKbLftWRorH/q+v1Pb3bmdh6LC3hsGoRxchCHKukYBu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cbea61b4473f32a2710dc8a2aea4e660e13ff3f709dc60aa84b6381ffe1ebfa1" Description="" Url=""><as:assemblyIdentity name="LoanExpertSys.exe" version="1.0.0.0" publicKeyToken="8a7eda9b96a6a194" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SAIMOH-SIMERTEC\Saimoh Saimooh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xcTSyqMFMqPy2bMSPbvx/D5Xc2jZS3uDOqOLpM91A0s=</DigestValue></Reference></SignedInfo><SignatureValue>bzTfsWD4UE4hutStr09sFiQMpvWF5oo0ZL4VTTTcWchqOpcwOEmezdiEFwm4yG0VoiCYCPBj5oH+D8J/Bg1CEia8nJJDg8lJtQsbD59yhDEUmCD2qtsPzE17xMUjlK+lR9AtKNOm46xZw8uTa8yMGxpm7/7+0K19ADramogMdOA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uDU7Nfw1d1zuuJ690rJPFTljpDAilRbrsmo5VKIvqJ8Di4cNqNGsOiSYFV69It/k610tqS0nKI+EihZCg/WwxwK9kV6m3XTyyLCzseh8i0wGlYnaavZXB96NC2gc3O5QKbLftWRorH/q+v1Pb3bmdh6LC3hsGoRxchCHKukYBu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQGrfRF/LcuK5NI84qI9TZjzANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwAUwBBAEkATQBPAEgALQBTAEkATQBFAFIAVABFAEMAXABTAGEAaQBtAG8AaAAgAFMAYQBpAG0AbwBvAGgwHhcNMTkxMDIxMTcyMTA0WhcNMjAxMDIwMjMyMTA0WjBHMUUwQwYDVQQDHjwAUwBBAEkATQBPAEgALQBTAEkATQBFAFIAVABFAEMAXABTAGEAaQBtAG8AaAAgAFMAYQBpAG0AbwBvAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALg1OzX8NXdc7rievdKyTxU5Y6QwIpUW67JqOVSiL6ifA4uHDajRrDokmBVevSLf5OtdLaktJyiPhIoWQoP1sMcCvZFept108siws7HofItMBpWJ2mr2VwfejQtoHNzuUCmy37VkaKx/6vr9T2925nYeiwt4bBqEcXIQhyrpGAbtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQg3E57Z0HgZLasMWgR5ymlJec2EGBgAcPYAGmzzxuxVJ7sSoxI4NVjlbDDDGtkmEdTXbLCHTdjKf5vmRhYjjFrL+X/6Saf8X2xBLokbnbihQCxseI0djiDdJMhgb0V2veiMtvLacYR5LAqfDa0Xm0EZSLk03wYgqDjvrEnI7Zzc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
